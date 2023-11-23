@@ -614,9 +614,9 @@ video {
   white-space: nowrap;
 }
 
-.bg-orange-300 {
+.bg-gray-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .uppercase {

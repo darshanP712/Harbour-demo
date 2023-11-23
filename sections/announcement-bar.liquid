@@ -2,7 +2,7 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 
 <div
-  class="bg-orange-300 utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
+  class="bg-gray-600 utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
   {{ block.shopify_attributes }}
 >
   {%- if section.blocks.size == 1 -%}
